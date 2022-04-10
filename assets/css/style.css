@@ -1,0 +1,42 @@
+:root{
+	--bs-blue: #0033AB;
+	--bs-red: #CF142B;
+	--bs-yellow: #F7D117;
+	--bs-primary: #0033AB;
+	--bs-warning: #F7D117;
+	--bs-danger: #CF142B;
+}
+html, body, *{
+	font-family: 'Oswald', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Popins';
+}
+
+.special-font{
+	font-family: 'Beau Rivage', cursive;
+}
+
+.bg-primary, .bg-blue{
+	background-color: var(--bs-primary) !important;
+}
+
+.bg-warning, .bg-yellow{
+	background-color: var(--bs-warning) !important;
+}
+
+.bg-danger, .bg-danger{
+	background-color: var(--bs-danger) !important;
+}
+
+.text-primary, .fg-blue{
+	color: var(--bs-primary) !important;
+}
+
+.text-warning, .fg-yellow{
+	color: var(--bs-warning) !important;
+}
+
+.text-danger, .fg-danger{
+	color: var(--bs-danger) !important;
+}
